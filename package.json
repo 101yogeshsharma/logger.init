@@ -6,7 +6,8 @@
         "build": "tsc",
         "start": "node dist/index.js",
         "prepack": "npm run build",
-        "pack": "npm pack"
+        "pack": "npm pack",
+        "prepublishOnly": "npm pack"
     },
     "keywords": [
         "logger",
