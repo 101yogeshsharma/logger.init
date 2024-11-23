@@ -1,0 +1,27 @@
+{
+    "name": "logger.init",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "prepack": "npm run build",
+        "pack": "npm pack"
+    },
+    "keywords": [
+        "logger",
+        "logger-init",
+        "core.init"
+    ],
+    "author": "Yogesh Sharma",
+    "license": "ISC",
+    "description": "A versatile Node.js logger module, providing timestamped logs with configurable severity levels and color-coded output.",
+    "devDependencies": {
+        "@types/node": "^22.9.3",
+        "typescript": "^5.6.3"
+    },
+    "repository": {
+    "type": "git",
+    "url": "101yogeshsharma+https://github.com/101yogeshsharma/logger.init.git"
+  }
+}

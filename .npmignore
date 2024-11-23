@@ -1,0 +1,7 @@
+src/
+package-lock.json
+tsconfig.json
+.prettierrc
+.npmignore
+.vscode
+node_modules
